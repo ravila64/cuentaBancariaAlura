@@ -5,17 +5,18 @@ public class CuentaBancaria {
         double saldo = 1599.99;
 
         System.out.println("************************");
-        System.out.println("\nNombre del cliente "+nombre);
+        System.out.println("Nombre del cliente "+nombre);
         System.out.println("Tipo de cuenta "+tipoCuenta);
         System.out.println("Saldo US$"+saldo);
-
+        System.out.println("************************");
         String menu = """
-           ** Seleccion opción **
+           **       MENU      **
            1.- Saldo de cuenta
            2.- Retirar
            3.- Consignar
            9.- Salir     
                 """;
         System.out.println(menu);
+        System.out.print("Seleccione opcion -->");
     }
 }
